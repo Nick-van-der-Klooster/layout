@@ -1,0 +1,500 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightslategrey;
+}
+
+#bg1 {
+  width: 100%;
+  height: 500px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg1>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#bg2 {
+  width: 100%;
+  height: 500px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  opacity: 1;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg2>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#bg3 {
+  width: 100%;
+  height: 500px;
+  background-image: url("whd.jpg");
+  background-size:  cover;
+  opacity: 1;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg3>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#bg4 {
+  width: 100%;
+  height: 500px;
+  background-image: url("l2s.jpg");
+  background-size:  cover;
+  opacity: 1;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg4>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#bg5 {
+  width: 100%;
+  height: 500px;
+  background-image: url("csd.jpg");
+  background-size:  cover;
+  opacity: 1;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg5>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#bg6 {
+  width: 100%;
+  height: 500px;
+  background-image: url("dis1.png");
+  background-size:  cover;
+  opacity: 1;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg6>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#bg7 {
+  width: 100%;
+  height: 500px;
+  background-image: url("njr.jpg");
+  background-size:  cover;
+  opacity: 1;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg7>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#bg8 {
+  width: 100%;
+  height: 500px;
+  background-image: url("jkp1.jpg");
+  background-size:  cover;
+  opacity: 1;
+  color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: black;
+  border-right-style: solid;
+  border-right-width: 3px;
+  border-right-color: black;
+}
+#bg8>h {
+  font-size: 100px;
+  font-family: fantasy;
+  color: deepskyblue;
+  text-shadow: 5px 5px 10px #000000;
+}
+#whd {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  margin-top: 80px;
+  left: 5%;
+  background-image: url("foto1.jpg");
+  background-size: cover;
+  text-align: justify;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 70px;
+}
+#whd>p {
+  margin-top: 260px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-family: cursive;
+}
+#lts {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  margin-top: 80px;
+  left: 29%;
+  background-image: url("lts.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#lts>p {
+  margin-top: 260px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-family: cursive;
+}
+#cs {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  margin-top: 80px;
+  left: 53%;
+  background-image: url("cs.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#cs>p {
+  margin-top: 260px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-family: cursive;
+}
+#dis {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  margin-top: 410px;
+  left: 5%;
+  background-image: url("dis.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 70px;
+  border-top-left-radius: 20px;
+}
+#dis>p {
+  margin-top: 260px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-family: cursive;
+}
+#rnj {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  margin-top: 410px;
+  left: 29%;
+  background-image: url("rjn.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#rnj>p {
+  margin-top: 260px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-family: cursive;
+}
+#jkp {
+  position: absolute;
+  height: 250px;
+  width: 300px;
+  margin-top: 410px;
+  left: 53%;
+  background-image: url("jkp.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+  border-bottom-right-radius: 70px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#jkp>p {
+  margin-top: 260px;
+  padding-left: 5px;
+  font-size: 18px;
+  font-family: cursive;
+}
+footer {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  background: black;
+  bottom: 0px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+#adv1 {
+  position: absolute;
+  height: 260px;
+  width: 220px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  left: 84.5%;
+  background-image: url("http://www.letsgodigital.org/images/artikelen/954/media-markt.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+}
+#adv2 {
+  position: absolute;
+  height: 160px;
+  width: 225px;
+  top: 120%;
+  margin-top: 300px;
+  left: 84.5%;
+  margin-top: 10px;
+  margin-bottom: 300px;
+  background-image: url("http://www.reclamefolderaanbiedingen.nl/wp-content/uploads/2017/06/Gamma-Folder-Aanbieding-Opblaasbare-Boot-Reclamefolder-Aanbiedingen.jpg");
+  border-style: solid;
+  background-size: contain;
+  border-width: 3px;
+  border-color: grey;
+}
+.tekstwhd {
+  position: absolute;
+  width: 60%;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 3px;
+  background-image: url("whdtekst.jpg");
+  color: white;
+  background-size: cover;
+  text-shadow: 5px 8px 8px #000000;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.tekstl2s {
+  position: absolute;
+  width: 60%;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 3px;
+  background-image: url("tekstl2s.jpg");
+  color: white;
+  background-size: cover;
+  text-shadow: 5px 8px 8px black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.tekstcsd {
+  position: absolute;
+  width: 60%;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 3px;
+  background-image: url("tekstcsd.jpg");
+  color: white;
+  background-size: cover;
+  text-shadow: 5px 8px 8px black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.tekstdis {
+  position: absolute;
+  width: 60%;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 3px;
+  background-image: url("tekstdis.jpg");
+  color: white;
+  background-size: cover;
+  text-shadow: 5px 8px 8px black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.tekstnjr {
+  position: absolute;
+  width: 60%;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 3px;
+  background-image: url("tekstnjr.jpg");
+  color: white;
+  background-size: cover;
+  text-shadow: 5px 8px 8px black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.tekstjkp {
+  position: absolute;
+  width: 60%;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border-style: ridge;
+  border-color: grey;
+  border-width: 3px;
+  background-image: url("tekstjkp.jpg");
+  color: black;
+  background-size: cover;
+  text-shadow: 5px 8px 8px black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+#hframe {
+  position: absolute;
+  height: 650px;
+  width: 1240px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  left: 1%;
+}
+#homepf {
+  position: absolute;
+  height: 600px;
+  width: 1220px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  left: 1%;
+  background-image: url("hpf.jpg");
+  background-size: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color: grey;
+}
